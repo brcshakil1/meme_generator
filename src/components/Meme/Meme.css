@@ -27,3 +27,37 @@ main {
     color: #fff;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
 }
+
+.meme--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+
+    position: relative
+}
+
+.memeImage {
+    max-width: 100%;
+}
+
+.meme--image h2 {
+    position: absolute;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow:
+                    3px 3px 0 #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                    1px 1px 0 #000;
+}
+
+.meme--image .top--text {
+    top: 8%;
+}
+
+.meme--image .bottom--text {
+    bottom: 2%;
+}
